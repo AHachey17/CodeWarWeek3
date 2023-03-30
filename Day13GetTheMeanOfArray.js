@@ -11,5 +11,5 @@ function getAverage(marks){
     total += marks[i] //remember the += 
   }
   return total / marks.length
-  //TODO : calculate the downward rounded average of the marks array
+
 }

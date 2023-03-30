@@ -16,3 +16,9 @@ for (let i = 0; i < arrOfwords.length; i++){
   }
   return arrOfwords
 }
+
+/*for of loop
+const answer = []
+for (let wordLength of arrofWords){
+  answer.push(`${wordLength} ${arrOfwords.length}`)
+}*/
