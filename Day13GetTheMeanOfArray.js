@@ -10,6 +10,15 @@ function getAverage(marks){
   for (let i = 0; i < marks.length; i++){
     total += marks[i] //remember the += 
   }
-  return total / marks.length
+  return Math.floor(total / marks.length) // need Math.floor to return the integer, VONDS reminder
 
 }
+
+/*function getAverage(marks){
+  let total = 0
+  marks.forEach(grade => {
+    total += grade
+  })
+  return Math.floor(total / marks.length)
+
+}*/
