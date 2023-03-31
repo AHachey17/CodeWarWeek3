@@ -45,5 +45,13 @@ function gooseFilter (birds) {
 }
 gooseFilter()
 ```
+Day 15: 8KYU, My head is at the wrong end! - created a function that reverses an array. After reading the direction I thought this would be a little more difficult but was pretty easy.
+```
+function fixTheMeerkat(arr) {
+ return arr.reverse()
+}
+
+fixTheMeerkat(["tail", "body", "head"])
+```
 
 
